@@ -26,7 +26,7 @@
             <tr>
              <td>Parent/Guardian Name</td>
              <td>
-             <form>
+             <form action="confirm.html" method="GET">
                  <label for="gFirst"></label>
                  <input type="type" maxlength="20" name="name" id="first" placeholder="First Name" required>
                  <br>
@@ -38,7 +38,7 @@
         <tr>
             <td>Child's First Name</td>
             <td>
-            <form>
+            <form action="confirm.html" method="GET">
                 <lable for="cfirst">
                 </lable><input type="name" name="child" id="Name" placeholder="Child's First Name" required>
             </form>   
@@ -49,7 +49,7 @@
             <tr>
                 <td>Child Age</td>
                 <td>
-                <form>
+                <form action="confirm.html" method="GET">
                     <label for="age"></label><input type="number"
                     name="ChildAge" id="childAge" placeholder="Number" required>
                 </form>
@@ -66,7 +66,7 @@
             <tr>
                 <td>date</td>
                 <td>
-                    <form>
+                    <form action="confirm.html" method="GET">
                         <label for="date"></label>
                         <input type="date" name="date" id="Date" required>
                     </form>
@@ -77,7 +77,7 @@
             <tr>
                 <td>Start time</td>
                 <td>
-                    <form>
+                    <form action="confirm.html" method="GET">
                         <label for="time"></label>
                         <input type="time" name="time" id="time" required>
                     </form>
@@ -88,7 +88,7 @@
             <tr>
                 <td>Number of guests</td>
                 <td>
-                    <form>
+                    <form action="confirm.html" method="GET">
                         <lable for ="guests"></lable><input type="number"name="gnum"
                         id="GuestNum" required>
                     </form>
@@ -105,7 +105,7 @@
             <tr>
                 <td>Size</td>
                 <td>
-                <form>
+                <form action="confirm.html" method="GET">
                     <lable for ="Small"></lable>
                     <input type ="radio" name ="drink" id="buttons" value ="drink">
                     <span>sm</span>
@@ -125,29 +125,29 @@
             <tr>
                 <td>Drinks</td>
                 <td>
-                  <form>
+                  <form action="confirm.html" method="GET">
                     <input type ="checkbox"
                     checked ="true">  
                     <lable for="drink1">Coke</lable><br>
                       
                   </form>
-                  <form>
+                  <form action="confirm.html" method="GET">
                     <input type ="checkbox"
                     >
                     <lable for="drink2">Sprint</lable><br>
                     
                 </form> 
-                <form>
+                <form action="confirm.html" method="GET">
                     <input type ="checkbox"
                     >
                     <lable for="drink3">Fruit Punch</lable><br>
                 </form>
-                <form>
+                <form action="confirm.html" method="GET">
                     <input type ="checkbox"
                     >
                     <lable for="drink4">Lemonade</lable><br>
                 </form>
-                <form>
+                <form action="confirm.html" method="GET">
                     <input type ="checkbox"
                     >
                     <lable for="drink5">Iced Tea</lable><br>
@@ -160,7 +160,7 @@
             <tr>
                 <td>Cake</td>
                 <td>
-                  <form>
+                  <form action="confirm.html" method="GET">
                    <label for="cake"></label><select id = "cake">
                     <option >Chocoate</option>
                     <option >Vanilla</option>
@@ -184,7 +184,7 @@
                 <td>
                   Choose a color scheme for the Party<br>
                   <label for="colors"></label>
-                  <form>
+                  <form action="confirm.html" method="GET">
                       <input type="color" name="color">
                   </form>  
                 </td>
@@ -195,8 +195,10 @@
                 <td>Additional Comments</td>
                 <td>
                     <label for="comments" name="comments">
+                        <form action="confirm.html" method="GET">
                         <textarea placeholder="Please add any additional comments here"></textarea>
                     </label>
+                </form>
                 </td>
             </tr>
         </thead>
@@ -204,7 +206,9 @@
             <tr>
                 <td></td>
                 <td>
-                  <input type="submit" value="submit">  
+                    <form action="confirm.html" method="GET">
+                  <input type="submit" value="Submit">
+                </form>  
                 </td>
             </tr>
         </thead>

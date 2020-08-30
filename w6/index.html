@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pay Calculator</title>
+</head>
+<body>
+
+    <h1>Pay Check Calculater</h1>
+
+    <!--This will be JavaScript-->
+
+    <script>
+
+
+       //tax rate
+        var tax = .2
+
+        //Ask user what is the there payment
+        var hour = prompt ('Please enter payment per hour:')
+
+        // keeps number of hours
+        num = Number(hour)
+
+        
+        // Ask the user how many hours they work
+        var num = prompt ('How many hours did you work')
+
+        // Keeps count of hours
+        num = Number(num)
+
+        // math for the gross payment
+        var grossPay = num * hour
+        // the math for the tax payment
+        var taxPay = grossPay * tax
+        // The math for the totalAmount
+        var totalAmount = grossPay - taxPay
+
+        // tells user the total amount for the total 
+        // displayed values are rounded to the second decimal place
+        alert(` Gross Pay : $ ${grossPay.toFixed(2)} 
+        Uncle Sam's Share: $ ${taxPay.toFixed(2)} 
+        Net pay: $ ${totalAmount.toFixed(2)}`)
+
+    
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
